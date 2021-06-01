@@ -26,13 +26,13 @@ This project assumes you've already had experience with:
 
 Use the snippet **starter code** to initialise your `server.js` file
 
-# Task 3 - Add middleware for a GET request to '/hello'
+# Task 3 - Add a GET request to '/hello'
 
 Using the snippet **GET request middleware**, write some middleware that will respond to the path `/hello`
 
 This middleware should return a `response` with a message of greetings.
 
-# Task 4 - Add middleware for a GET request to '/time'
+# Task 4 - Add a GET request to '/time'
 
 Using the snippet **GET request middleware**, write some middleware that will respond to the path `/time`
 
@@ -44,7 +44,7 @@ This middleware should return a `response` with the current time and date
 > 
 > [Date Object [de]](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-# Task 6 - Add middleware for a GET request to '/random'
+# Task 5 - Add a GET request to '/random'
 
 Using the snippet **GET request middleware**, write some middleware that will respond to the path `/random`
 
@@ -56,9 +56,11 @@ This middleware should return a `response` with the random number
 >
 > [Math.random() [de]](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
-# Task 7 - Add middleware for a GET request to '/isNumber'
+# Task 6 - Add a GET request to '/isNumber'
 
 Using the snippet **GET request middleware with parameters**, write some middleware that will respond to the path `/isNumber`
+
+> Hint: Parameters can be added to a path with a `:` symbol, for example, to add the parameter `name` we would write `/:name/`
 
 This middleware should receive one parameter `value`
 
@@ -70,10 +72,14 @@ If it can be converted to a number, then send a `response` with the message:
 If it can not be converted to a number, then send a `response` with the message:
 > "This is not a number"
 
-> Hint: You can use the Math function `Number()` to see if the value is a number or not
+> Hint: You can use both the Math function `Number()` and the `isNaN()` function to see if the value can be converted to a number or not
 
 > Research:
 >
-> [Math.random() [en]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+> [Number() [english]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
 >
-> [Math.random() [de]](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Number)
+> [Number() [deutsch]](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Number)
+> 
+> [isNaN() [english]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN)
+> 
+> [isNaN() [deutsch]](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/isNaN)

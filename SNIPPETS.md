@@ -4,7 +4,7 @@ Small pieces of code to help you with this assignment
 
 ##### starter code
 ```javascript
-const express = require('express');
+import express from 'express';
 const app = express();
 
 app.listen(3001, () => {

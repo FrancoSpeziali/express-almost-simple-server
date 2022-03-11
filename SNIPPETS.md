@@ -4,7 +4,7 @@ Small pieces of code to help you with this assignment
 
 ##### starter code
 ```javascript
-import express from 'express';
+import express from "express";
 const app = express();
 
 app.listen(3001, () => {
@@ -15,7 +15,7 @@ app.listen(3001, () => {
 ##### GET request middleware
 ```javascript
 // replace "/" with your own path
-app.get('/path', (request, response) => {
+app.get("/path", (request, response) => {
 });
 ```
 
@@ -24,7 +24,7 @@ app.get('/path', (request, response) => {
 // replace "/path" with your own path
 // replace ":param1" with your own param
 // add as many params as you need
-app.get('/path/:param1', (request, response) => {
+app.get("/path/:param1", (request, response) => {
     const params = request.params;
 });
 ```

@@ -14,7 +14,7 @@ This project assumes you've already had experience with:
 
 ## Tasks
 
-## Task 1 - Getting ready
+### Task 1 - Getting ready
 
 1. Initialise npm into your project
    `npm init -y`
@@ -22,17 +22,17 @@ This project assumes you've already had experience with:
    `npm i express`
 3. Create a file for your server (`server.js`)
 
-# Task 2 - Setting up your server
+### Task 2 - Setting up your server
 
 Use the snippet **starter code** to initialise your `server.js` file
 
-# Task 3 - Add a GET request to '/hello'
+### Task 3 - Add a GET request to '/hello'
 
 Using the snippet **GET request middleware**, write some middleware that will respond to the path `/hello`
 
 This middleware should return a `response` with a message of greetings.
 
-# Task 4 - Add a GET request to '/time'
+### Task 4 - Add a GET request to '/time'
 
 Using the snippet **GET request middleware**, write some middleware that will respond to the path `/time`
 
@@ -44,7 +44,7 @@ This middleware should return a `response` with the current time and date
 > 
 > [Date Object [de]](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
-# Task 5 - Add a GET request to '/random'
+### Task 5 - Add a GET request to '/random'
 
 Using the snippet **GET request middleware**, write some middleware that will respond to the path `/random`
 
@@ -56,7 +56,7 @@ This middleware should return a `response` with the random number
 >
 > [Math.random() [de]](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
-# Task 6 - Add a GET request to '/isNumber'
+### Task 6 - Add a GET request to '/isNumber'
 
 Using the snippet **GET request middleware with parameters**, write some middleware that will respond to the path `/isNumber`
 

@@ -19,7 +19,7 @@ app.get("/path", (request, response) => {
 });
 ```
 
-##### GET request middleware with parameters
+##### GET request middleware with request parameters
 ```javascript
 // replace "/path" with your own path
 // replace ":param1" with your own param

@@ -64,12 +64,10 @@ This middleware should return a `response` with the random number
 
 - This middleware should receive one parameter `value`
 - This middleware should check that the parameter `value` can be converted to a number
-
-If it can be converted to a number, then send a `response` with the message:
-> "This is a number"
-
-If it can not be converted to a number, then send a `response` with the message:
-> "This is not a number"
+- If it can be converted to a number, then send a `response` with the message:
+   > "This is a number"
+- If it can not be converted to a number, then send a `response` with the message:
+   > "This is not a number"
 
 > Hint: You can use both the Math function `Number()` and the `isNaN()` function to see if the value can be converted to a number or not
 

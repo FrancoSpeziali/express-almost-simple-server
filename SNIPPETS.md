@@ -28,3 +28,13 @@ app.get("/path/:param1", (request, response) => {
     const params = request.params;
 });
 ```
+
+##### GET request middleware with query parameters
+```javascript
+// replace "/path" with your own path
+// replace ":param1" with your own param
+// add as many params as you need
+app.get("/path", (request, response) => {
+    const params = request.query;
+});
+```

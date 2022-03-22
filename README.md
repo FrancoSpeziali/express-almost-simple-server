@@ -56,15 +56,14 @@ This middleware should return a `response` with the random number
 >
 > [Math.random() [de]](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
-### Task 6 - Add a GET request to '/isNumber'
+### Task 6 - Add a GET request to '/isNumber' - with parameters
 
-Using the snippet **GET request middleware with parameters**, write some middleware that will respond to the path `/isNumber`
+1. Decide if you want to use request parameters or query parameters and use the appropriate snippet,  **GET request middleware with request parameters** or **GET request middleware with query parameters**
 
-> Hint: Parameters can be added to a path with a `:` symbol, for example, to add the parameter `name` we would write `/:name/`
+2. Using the snippet, write some middleware that will respond to the path `/isNumber`
 
-This middleware should receive one parameter `value`
-
-This middleware should check that the parameter `value` can be converted to a number
+- This middleware should receive one parameter `value`
+- This middleware should check that the parameter `value` can be converted to a number
 
 If it can be converted to a number, then send a `response` with the message:
 > "This is a number"
